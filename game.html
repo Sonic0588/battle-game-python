@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Russo+One">
+	
+	<title>Document</title>
+</head>
+<body>
+	<div class="game">
+		<div class="gamer gamer_first">
+			<div class="gamer-info">
+				<div class="gamer-info__name">
+					<span>Имя: </span>
+					<span class="player_1_name"></span>
+				</div>
+				<div class="gamer-info__health">
+					<span>Health: </span>
+					<span class="player_1_hp"></span>
+				</div>
+				<div class="gamer-info__damage">
+					<span>Damage: </span>
+					<span class="player_1_damage"></span>
+				</div>
+				<div class="gamer-info__flex">
+					<span>Flex: </span>
+					<span class="player_1_flex"></span>
+				</div>
+				<div class="gamer-info__hp">
+					<span>Max HP: </span>
+					<span class="player_1_maxhp"></span>
+				</div>
+			</div>
+			<div class="gamer__title">Выберите место для защиты</div>
+			<div class="gamer-body" id='defence'>
+				<div class="gamer-body__item gamer-body__item_top body_defence" id="def_head"></div>
+				<div class="gamer-body__item gamer-body__item_mid body_defence" id="def_body"></div>
+				<div class="gamer-body__item gamer-body__item_bot body_defence" id="def_legs"></div>
+			</div>
+		</div>
+		<div class="gamer gamer_second">
+			<div class="gamer-info">
+				<div class="gamer-info__name">
+					<span>Имя: </span>
+					<span class="player_2_name"></span>
+				</div>
+				<div class="gamer-info__health">
+					<span>Health: </span>
+					<span class="player_2_hp"></span>
+				</div>
+				<div class="gamer-info__damage">
+					<span>Damage: </span>
+					<span class="player_2_damage"></span>
+				</div>
+				<div class="gamer-info__flex">
+					<span>Flex: </span>
+					<span class="player_2_flex"></span>
+				</div>
+				<div class="gamer-info__hp">
+					<span>Max HP: </span>
+					<span class="player_2_maxhp"></span>
+				</div>
+			</div>
+			<div class="gamer__title">Выберите место для атаки</div>
+			<div class="gamer-body" id="attack">
+				<div class="gamer-body__item gamer-body__item_top body_attack" id="atk_head"></div>
+				<div class="gamer-body__item gamer-body__item_mid body_attack" id="atk_body"></div>
+				<div class="gamer-body__item gamer-body__item_bot body_attack" id="atk_legs"></div>
+			</div>
+		</div>
+		<div class="game__btn">Сделать ход</div>
+	</div>
+	<script type="text/javascript" src="index_game.js"></script>
+</body>
+</html>
